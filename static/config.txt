@@ -1,3 +1,8 @@
 #MAC,role
 default,compute
 ff:ff:ff:ff:ff:ff,compute
+00:22:4d:7f:21:18,compute
+00:22:4d:7f:f8:92,compute
+00:22:4d:80:0b:ad,compute
+00:22:4d:83:08:0f,compute
+e0:69:95:dd:6b:9f,compute

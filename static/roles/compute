@@ -11,5 +11,6 @@ users:
     homedir: /home/cloudinit
     no-log-init: true
     sudo:
-    - ALL ALL=(ALL) NOPASSWD:ALL
-
+      - ALL ALL=(ALL) NOPASSWD:ALL
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAhuCKAm16KtAkb1/maHGXJri5Zh3Z1nstzEmiWinvw9k9o8agkKKqTvJP8rNHRY4e/snQYeshWNi6zKgac6PhtF03RKJduiib5iWUFTHPg5pJUSzHu88Ulh+5x7JvSGDHqN1VVytsLbWXFSGeu7NI6HVTRDYwd9tj+DgUQvImq+lsq6jJYmbUB584V6gsXLkYfmHP/mtnYMM6hhDg3P2fd5/qUayKhjsUTwOo9hmaISd2ILfAfrhAaF12B5m5vPFiGbZqr+xaO6w5zQTLvEMMDcUKVKQ618Hry01A5tNaHacdxJ+40Na6rTSj2qDK2KLKKpMyPKCL7qnjhMIP9cb7lw==
